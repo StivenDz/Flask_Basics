@@ -12,7 +12,9 @@ def index():
         'Bienvenida':'¡Saludos!',
         'cursos':cursos,
         'numeros':numeros,
-        'numero_cursos':len(cursos)
+        'numero_cursos':len(cursos),
+        'git config --global user.name':'StivenDz',
+        'git config --global user.email':'stivendiazh@gmail.com'
     }
     return render_template('index.html',data=data)
 
