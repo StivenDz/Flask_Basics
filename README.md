@@ -38,5 +38,9 @@ Fundamentos del framework Flask-Python
 30. git fetch (nos muestra la diferencia entre las archivos que tenemos en el repositorio remoto/github y en el repositorio local)
 31. git clone https://github.com/bluuweb/tutorial-github.git nombreCarpeta (para clonar un repositorio/decargar)
   
+# Comandos útiles de Linux
+  
+
+  
   
   
