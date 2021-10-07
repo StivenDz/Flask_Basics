@@ -33,14 +33,31 @@ Fundamentos del framework Flask-Python
 25. git remote add origin https://github.com/bluuweb/tutorial-github.git (una sola vez/para enlazar)
 26. git push -u origin <master>  (una sola vez/para enviar)
 27. git remote -v (nos muestra en que repositorios remotos estamos enlazados)
-28 .git push (subimos todos los archivos a nuestro repositorio remoto)
+28. git push (subimos todos los archivos a nuestro repositorio remoto)
 29. git pull (bajar los cambios que hemos realizado en github al repositorio local)
 30. git fetch (nos muestra la diferencia entre las archivos que tenemos en el repositorio remoto/github y en el repositorio local)
 31. git clone https://github.com/bluuweb/tutorial-github.git nombreCarpeta (para clonar un repositorio/decargar)
   
 # Comandos útiles de Linux
+      <variaciones>(def)((how))
   
-
-  
-  
-  
+32. pwd (print working directory)
+33. uname (impirmira informacion del dispositivo)
+34. cd <cd ../cd/cd-> (change directory)
+35. ls <-R/-a/-al> (all archivos en subdirectorios/all archivos ocultos/all archivos con detalles)
+36. cp (copiar archivos del directorio actual a un directorio diferente)((cp docx.txt /home/documentos/imagenes))
+37. mv (mover archivos/cambiar nombre del archivo)((mv docx.txt /home/documentos/textos)/(mv docx.txt doc.pdf))
+38. mkdir <-p>(crear nuevo directorio/crear un directorio entre 2 existentes)((mkdir Musica/Nuevoarchivo)/(mkdir -p Musica/2020/Nuevoarchivo))
+39. rmdir (delete/remove directory)
+40. touch (crea un archivo)((touch app.py))
+41. locate -i (localizar un archivo)((locate -i escuela*nota))(cualquier archivo que contenga la palabra escuela y nota)
+42. find <-name/-type d -name> (busca archivos y directorios/ubica un archivo dentro de un directorio dado)((find /home/ -name notas.txt))
+43. grep (busca el texto de un archivo)((grep azul notepad.txt))(buscará ña palabra azul en el archivo)
+44. sudo (te permite realizar tareas que requieren permisos de admin)
+45. df <-m/para ver en mb> (para obtener un informe sobre el usp del espacio en el disco del sistema)((df -m))
+46. du <-h/verlo en todas las medidas> (verificar cuanto espacio ocupa un archivo o un directorio)
+47. wget (decgarga archivos de internet)((wget url))
+48. top (mostrara los procesos en ejecucion y la cantidad de CPU que utiliza ese proceso)
+49. history (muestra los comandos utilizados que ingresaste anteriormente)
+50. man (te muestra como utilizar un comando)((man ls))
+51. hostname <-l>(nombre de tu host/(-l)red)
