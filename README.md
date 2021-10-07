@@ -20,3 +20,10 @@ Fundamentos del framework Flask-Python
 15. git reset --hard #registro: Apunto a la versión con registro digitado y todas las versiones posteriores a esa se borran
 16. git commit --amend (para cambiar el mensaje del ultimo commit realizado)
 17. git commit -am 'mensaje' (es la fusion de git add y git commit/dos pasos en 1)
+18. git reset --mixed f52f3da (Viajamos al commit en específico f52f3da)
+19. git reset --hard f52f3da (Viajamos al commit en específico f52f3da y eliminamos los cambios futuros)
+20. git reflog (Muestra todos los cambios incluso si borramos los commit)
+21. git reset --hard f52f3da (Viajamos al commit en específico f52f3da y podemos restaurar los archivos)
+22. git mv <nombreOriginal.vue> <nombreNuevo.vue> (ambiar nombre)
+23. git rm <nombreArchivo.vue> (eliminar un archivo)
+24. git branch -d <nombreRama> (eliminar una rama)
