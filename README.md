@@ -1,5 +1,8 @@
 # Fundamentos-Flask
-Fundamentos del framework Flask-Python
+Fundamentos del framework Flask-Python.
+Crear un entorno virtual de Pyton.
+
+<py -m venv <virtualenvironmetname>> <.\virtualenvironmetname\Scripts\activate>
 
 # Comandos útiles de Git
 
