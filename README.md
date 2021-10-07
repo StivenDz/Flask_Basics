@@ -27,3 +27,16 @@ Fundamentos del framework Flask-Python
 22. git mv <nombreOriginal.vue> <nombreNuevo.vue> (ambiar nombre)
 23. git rm <nombreArchivo.vue> (eliminar un archivo)
 24. git branch -d <nombreRama> (eliminar una rama)
+
+# GITHUB 
+  
+25. git remote add origin https://github.com/bluuweb/tutorial-github.git (una sola vez/para enlazar)
+26. git push -u origin <master>  (una sola vez/para enviar)
+27. git remote -v (nos muestra en que repositorios remotos estamos enlazados)
+28 .git push (subimos todos los archivos a nuestro repositorio remoto)
+29. git pull (bajar los cambios que hemos realizado en github al repositorio local)
+30. git fetch (nos muestra la diferencia entre las archivos que tenemos en el repositorio remoto/github y en el repositorio local)
+31. git clone https://github.com/bluuweb/tutorial-github.git nombreCarpeta (para clonar un repositorio/decargar)
+  
+  
+  
