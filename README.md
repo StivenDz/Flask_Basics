@@ -3,6 +3,8 @@ Fundamentos del framework Flask-Python - Crear un entorno virtual de Pyton y act
 
 <py -m venv (virtualenvironmetname)>     <.\virtualenvironmetname\Scripts\activate>
 
+((crear un alias))<alias avenv =.\virtualenvironmetname\Scripts\activate> 
+
 # Comandos útiles de Git
 
 1. git init
