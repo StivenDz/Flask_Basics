@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(197, 190, 184);
+}
+
+.h1-header{
+    text-align: center;
+    height: 100px;
+}
+
+.contenedor{
+    display:block;
+    height:400px;
+}
+
+.contenedor h3{
+    text-align: center;
+}
+
+.contenedor ul,li{
+    margin: 14px;
+    width:90%;
+    transition:all 1s;
+    cursor:pointer
+}
+
+.contenedor .li-PHP{
+    margin-left:35px;
+}
+
+.contenedor .li-Python{
+    margin-left:50px;
+}
+.contenedor .li-Java{
+    margin-left:65px;
+}
+.contenedor .li-Kotlin{
+    margin-left:65px;
+}
+.contenedor .li-Dart{
+    margin-left:50px;
+}
+.contenedor .li-JavaScript{
+    margin-left:35px;
+}
+
+.contenedor li:hover{
+    background: rgb(15, 15, 15);
+    color:rgb(255, 255, 255);
+    margin-left:36px
+}
+
+.hr{
+    margin:7px auto;
+    width: 80%;
+    box-shadow: 0px 2px 2px 0px rgb(70, 68, 68);
+    transition:all 1s;
+}
+
+.hr:hover{
+    width:95%;
+}
+
