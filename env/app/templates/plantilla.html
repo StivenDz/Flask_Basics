@@ -1,0 +1,16 @@
+{% extends "layout.html"%}
+
+{% block title %}
+    {{data.titulo}}: {{data.numero1}} + {{data.numero2}}
+{% endblock %}
+
+{% block body %}
+    <h2>Suma</h2>
+    {% if data.resultado > 0%}
+        <p>El resultado es Positivo</p>
+    {%else%}
+        <p>El resultado es Negativo</p>
+    {% endif %}
+
+    <h3>{{data.resultado}}</h3>
+{% endblock %}

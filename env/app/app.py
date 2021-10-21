@@ -1,6 +1,30 @@
-from flask import Flask, render_template, request, url_for, redirect
+from flask import Flask, render_template, request, url_for, redirect, jsonify
+from flask_mysqldb import MySQL
+
 
 app = Flask(__name__,template_folder="templates")
+
+app.config['MYSQL_HOST'] = 'localhost'
+app.config['MYSQL_USER'] = 'root'
+app.config['MYSQL_PASSWORD'] = '12594995'
+app.config['MYSQL_DB'] = './db/Datos_Flask.db'
+
+conexion = MySQL(app)
+
+@app.route('/cursos')
+def listar_cursos():
+    data={}
+    try:
+        cursor=conexion.connection.cursor()
+        sql="SELECT Languagues ,Age,Creator, Courses, Cost FROM Programming_Languagues ORDER BY Age ASC"
+        cursor.excecute(sql)
+        cursos=cursor.fetchall()
+        print(cursos)
+        data['cursos']=cursos
+        data['mensaje']='Exito'
+    except Exception as ex:
+        data['mensaje']='Error ...'
+    return jsonify(data)
 
 @app.before_request
 def before_request():
