@@ -23,14 +23,13 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    color: white;
+    color: rgb(255, 255, 255);
     padding: 2em;
 }
 
 .heading{
     font-size: 2em;
     margin-bottom: 0.5em;
-
 }
 
 .box{

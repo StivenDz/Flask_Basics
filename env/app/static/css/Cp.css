@@ -1,0 +1,737 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body{
+    display: block;
+    height: 170vh;
+    background: black;
+    width: 100%;
+}
+
+.container{
+    background: rgb(15, 15, 15);
+    width: 650px;
+    height: 770px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding:2em;
+    margin: 10px auto;
+
+}
+
+.heading{
+    font-size: 1.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+strong{
+    text-align: center;
+    font-size: 2em;
+}
+
+
+.box{
+    margin: 0.2em;
+}
+.box-{
+    margin: 0.2em;
+}
+
+
+.container .box p{
+    color: rgb(255, 255, 255);
+    padding-left: 80px;
+    bottom: 3px;
+}
+
+.container .box div{
+    position: relative;
+    width: 70%;
+    height: 40px;
+    
+    margin: 0.8em auto;
+}
+.container .box- div{
+    position: relative;
+    width: 70%;
+    height: 50px;
+    
+    margin: 0.5em auto;
+}
+
+.container .box input{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    outline: none;
+    padding-left: 0.8em;
+    border-radius: 10px;
+    transition: all .4s;
+
+}
+
+.container .box- input{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    width: 10%;
+    height: 30%;
+    border: none;
+    outline: none;
+    padding-left: 0.8em;
+    border-radius: 10px;
+    transition: all .4s; 
+    display: inline-block;
+    z-index: 1;
+    right: 350px;
+    bottom: 20px;
+}
+.container .box- p{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background: rgb(19, 19, 19);
+    width: 100%;
+    height: 90%;
+    border: none;
+    outline: none;
+    padding-left: 0.8em;
+    border-radius: 10px;
+    transition: all .4s;
+    display: inline-block;
+    line-height:70px;
+    padding-left: 80px;
+    cursor: pointer;
+    
+}
+
+.ch{
+    height: 15px;
+    display: inline-block;
+    margin-right: 7px;
+    cursor: pointer;
+}
+
+
+
+.container .box input:focus::placeholder{
+    color: white;
+}
+
+.container .box div::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 102%;
+    height: 105%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff416c,#ff4b2b);    
+}
+
+.container .box- div::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 102%;
+    height: 105%;
+    border-radius: 10px;
+    background: linear-gradient(to right, #ff416c,#ff4b2b);    
+}
+.button{
+    position: relative;
+    width: 100%;
+}
+
+.submit{
+    position: absolute;
+    width: 80%;
+    height: 50px;
+    border:none;
+    border-radius: 10px;
+    transform: translate(-1%);
+    cursor: pointer;
+    color: white;
+    background: linear-gradient(to right, #ff416c,#ff4b2b);
+    transition: all .4s;
+    margin: auto; 
+    left: 10%;
+}
+
+.submit:hover{
+    transform: translate(-1%, 8%);
+    box-shadow: 0 0 10px #dd416d65;
+}
+
+.view{
+    position: absolute;
+    right: 10px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    top: 3px;
+}
+
+
+.conditions{
+    font-size: 0.7em;
+    margin-top: 0.5em;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.623);
+}
+
+@media screen and (max-width: 1347){
+    body{
+        display: block;
+        height: 150vh;
+        background: black;
+        width: 100%;
+    }
+    
+    .container{
+        background: rgb(15, 15, 15);
+        width: 550px;
+        height: 650px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        padding:2em;
+        margin: 10px auto;
+    
+    }
+    
+    .heading{
+        font-size: 1.3em;
+        margin-top: 0.1em;
+        text-align: center;
+    }
+    strong{
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    
+    .box{
+        margin: 0.2em;
+    }
+    .box-{
+        margin: 0.2em;
+    }
+    
+    
+    .container .box p{
+        color: rgb(255, 255, 255);
+        padding-left: 80px;
+        bottom: 3px;
+    }
+    
+    .container .box div{
+        position: relative;
+        width: 70%;
+        height: 30px;
+        
+        margin: 0.8em auto;
+    }
+    .container .box- div{
+        position: relative;
+        width: 70%;
+        height: 40px;
+        
+        margin: 0.5em auto;
+    }
+    
+    .container .box input{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgb(19, 19, 19);
+        color: white;
+        border: none;
+        outline: none;
+        padding-left: 0.8em;
+        border-radius: 10px;
+        transition: all .4s;
+    
+    }
+    
+    .container .box- input{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        width: 10%;
+        height: 30%;
+        border: none;
+        outline: none;
+        padding-left: 0.8em;
+        border-radius: 10px;
+        transition: all .4s; 
+        display: inline-block;
+        z-index: 1;
+        right: 300px;
+        bottom: 20px;
+    }
+    .container .box- p{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        background: rgb(19, 19, 19);
+        width: 100%;
+        height: 90%;
+        border: none;
+        outline: none;
+        padding-left: 0.8em;
+        border-radius: 10px;
+        transition: all .4s;
+        display: inline-block;
+        line-height:50px;
+        padding-left: 80px;
+        cursor: pointer;
+        
+    }
+    
+    .ch{
+        height: 15px;
+        display: inline-block;
+        margin-right: 7px;
+        cursor: pointer;
+    }
+    
+    
+    
+    .container .box input:focus::placeholder{
+        color: white;
+    }
+    
+    .container .box div::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 102%;
+        height: 105%;
+        border-radius: 10px;
+        background: linear-gradient(to right, #ff416c,#ff4b2b);    
+    }
+    
+    .container .box- div::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 102%;
+        height: 105%;
+        border-radius: 10px;
+        background: linear-gradient(to right, #ff416c,#ff4b2b);    
+    }
+
+    .button{
+        position: relative;
+        width: 80%;
+    }
+    
+    .submit{
+        position: absolute;
+        width: 100%;
+        height: 30px;
+        border:none;
+        border-radius: 10px;
+        transform: translate(-1%);
+        cursor: pointer;
+        color: white;
+        background: linear-gradient(to right, #ff416c,#ff4b2b);
+        transition: all .4s;
+        left: 13%;
+    }
+    
+    .submit:hover{
+        transform: translate(-1%, 8%);
+        box-shadow: 0 0 10px #dd416d65;
+    }
+    
+    
+    .conditions{
+        font-size: 0.7em;
+        margin-top: 0.01em;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.623);
+    }
+
+}
+
+@media screen and(max-width: 900px){
+    body{
+        display: block;
+        height: 100vh;
+        background: black;
+        width: 100%;
+    }
+    
+    .container{
+        background: rgb(15, 15, 15);
+        width: 550px;
+        height: 650px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        padding:2em;
+        margin: 30px auto;
+    
+    }
+    
+    .heading{
+        font-size: 1.3em;
+        margin-top: 0.1em;
+        text-align: center;
+    }
+    strong{
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    
+    .box{
+        margin: 0.2em;
+    }
+    .box-{
+        margin: 0.2em;
+    }
+    
+    
+    .container .box p{
+        color: rgb(255, 255, 255);
+        padding-left: 80px;
+        bottom: 3px;
+    }
+    
+    .container .box div{
+        position: relative;
+        width: 70%;
+        height: 30px;
+        
+        margin: 0.8em auto;
+    }
+    .container .box- div{
+        position: relative;
+        width: 70%;
+        height: 40px;
+        
+        margin: 0.5em auto;
+    }
+    
+    .container .box input{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgb(19, 19, 19);
+        color: white;
+        border: none;
+        outline: none;
+        padding-left: 0.8em;
+        border-radius: 10px;
+        transition: all .4s;
+    
+    }
+    
+    .container .box- input{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        width: 10%;
+        height: 30%;
+        border: none;
+        outline: none;
+        padding-left: 0.8em;
+        border-radius: 10px;
+        transition: all .4s; 
+        display: inline-block;
+        z-index: 1;
+        right: 300px;
+        bottom: 20px;
+    }
+    .container .box- p{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        background: rgb(19, 19, 19);
+        width: 100%;
+        height: 90%;
+        border: none;
+        outline: none;
+        padding-left: 0.8em;
+        border-radius: 10px;
+        transition: all .4s;
+        display: inline-block;
+        line-height:50px;
+        padding-left: 80px;
+        cursor: pointer;
+        
+    }
+    
+    .ch{
+        height: 15px;
+        display: inline-block;
+        margin-right: 7px;
+        cursor: pointer;
+    }
+    
+    
+    
+    .container .box input:focus::placeholder{
+        color: white;
+    }
+    
+    .container .box div::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 102%;
+        height: 105%;
+        border-radius: 10px;
+        background: linear-gradient(to right, #ff416c,#ff4b2b);    
+    }
+    
+    .container .box- div::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 102%;
+        height: 105%;
+        border-radius: 10px;
+        background: linear-gradient(to right, #ff416c,#ff4b2b);    
+    }
+
+    .button{
+        position: relative;
+        width: 80%;
+    }
+    
+    .submit{
+        position: absolute;
+        width: 100%;
+        height: 30px;
+        border:none;
+        border-radius: 10px;
+        transform: translate(-1%);
+        cursor: pointer;
+        color: white;
+        background: linear-gradient(to right, #ff416c,#ff4b2b);
+        transition: all .4s;
+        left: 13%;
+    }
+    
+    .submit:hover{
+        transform: translate(-1%, 8%);
+        box-shadow: 0 0 10px #dd416d65;
+    }
+    
+    
+    .conditions{
+        font-size: 0.7em;
+        margin-top: 0.01em;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.623);
+    }
+}
+@media screen and(max-width: 500px){
+    body{
+        display: block;
+        height: 100vh;
+        background: black;
+        width: 100%;
+    }
+    
+    .container{
+        background: rgb(15, 15, 15);
+        width: 450px;
+        height: 550px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        color: white;
+        padding:2em;
+        margin: 30px auto;
+    
+    }
+    
+    .heading{
+        font-size: 1.3em;
+        margin-top: 0.02em;
+        text-align: center;
+    }
+    strong{
+        text-align: center;
+        margin-top: 0;
+        font-size: 1em;
+    }
+    
+    
+    .box{
+        margin: 0.2em;
+    }
+    .box-{
+        margin: 0.2em;
+    }
+    
+    
+    .container .box p{
+        color: rgb(255, 255, 255);
+        padding-left: 80px;
+        bottom: 1.5px;
+    }
+    
+    .container .box div{
+        position: relative;
+        width: 65%;
+        height: 24px;
+        
+        margin: 0.65em auto;
+    }
+    .container .box- div{
+        position: relative;
+        width: 65%;
+        height: 30px;
+        
+        margin: 0.39em auto;
+    }
+    
+    .container .box input{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: rgb(19, 19, 19);
+        color: white;
+        border: none;
+        outline: none;
+        padding-left: 0.8em;
+        border-radius: 10px;
+        transition: all .4s;
+    
+    }
+    
+    .container .box- input{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        width: 10%;
+        height: 30%;
+        border: none;
+        outline: none;
+        padding-left: 0.8em;
+        border-radius: 10px;
+        transition: all .4s; 
+        display: inline-block;
+        z-index: 1;
+        right: 200px;
+        bottom: 10px;
+    }
+    .container .box- p{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        background: rgb(19, 19, 19);
+        width: 100%;
+        height: 90%;
+        border: none;
+        outline: none;
+        padding-left: 0.8em;
+        border-radius: 10px;
+        transition: all .4s;
+        display: inline-block;
+        line-height:40px;
+        padding-left: 80px;
+        cursor: pointer;
+        
+    }
+    
+    .ch{
+        height: 15px;
+        display: inline-block;
+        margin-right: 7px;
+        cursor: pointer;
+    }
+    
+    
+    
+    .container .box input:focus::placeholder{
+        color: white;
+    }
+    
+    .container .box div::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 102%;
+        height: 105%;
+        border-radius: 10px;
+        background: linear-gradient(to right, #ff416c,#ff4b2b);    
+    }
+    
+    .container .box- div::before{
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 102%;
+        height: 105%;
+        border-radius: 10px;
+        background: linear-gradient(to right, #ff416c,#ff4b2b);    
+    }
+
+    .button{
+        position: relative;
+        width: 80%;
+    }
+    
+    .submit{
+        position: absolute;
+        width: 100%;
+        height: 30px;
+        border:none;
+        border-radius: 10px;
+        transform: translate(-1%);
+        cursor: pointer;
+        color: white;
+        background: linear-gradient(to right, #ff416c,#ff4b2b);
+        transition: all .4s;
+        left: 13%;
+    }
+    
+    .submit:hover{
+        transform: translate(-1%, 8%);
+        box-shadow: 0 0 10px #dd416d65;
+    }
+    
+    
+    .conditions{
+        font-size: 0.7em;
+        margin-top: 0.01em;
+        text-align: center;
+        color: rgba(255, 255, 255, 0.623);
+    }
+}
+    
+
+
+
+
