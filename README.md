@@ -65,3 +65,4 @@ Fundamentos del framework Flask-Python - Crear un entorno virtual de Pyton y act
 49. history (muestra los comandos utilizados que ingresaste anteriormente)
 50. man (te muestra como utilizar un comando)((man ls))
 51. hostname <-l>(nombre de tu host/(-l)red)
+52. git update-index --chmod=+x <fileName>
